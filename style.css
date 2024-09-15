@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;  
+    box-sizing: border-box;
+}
+body {
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+  .container {
+    display: flex; 
+     width: 70;
+    max-width: 600px;
+    background: rgba(17, 14, 14, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+  .form-container {
+    flex: 1;
+     padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+     border-radius: 5px;
+    }
+    .form-container form {
+      display: flex;
+       flex-direction: column;
+    }
+    .form-container p{
+      font-size: 12px;
+      margin-bottom: 20px;
+      text-decoration: underline;
+    }
+  form label {
+  margin-bottom: 5px;
+   font-size: 16px;
+  }
+  form input{
+    padding: 10px;
+    margin-bottom: 13px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  form input[type="checkbox"]{
+    margin-bottom: 20px;
+  }
+  form p{
+    margin-bottom: 20px;
+    color: black;
+  }
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+  }
+  .cancelbtn, .signupbtn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .cancelbtn{
+    background-color: red;
+    color: white; 
+  }
+  .signupbtn{
+    background-color: green;
+    color: white;
+  }
+  .icon{
+    display: flex;
+  }
+  .fb{
+    width: 9%;
+    height: 9%;
+  }
+  .ig{
+    width: 10%;
+    height: 10%;
+  }
+  
+  
+  
+  
